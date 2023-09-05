@@ -1,42 +1,48 @@
 #include <stdio.h>
+/*muy parecido a la anterior,
+ pero con +-* / en vez de las palabras */
 
 int main()
 {
     double num1 = 0;
     double num2 = 0;
     double result = 0;
-    char operation[10];
+    char operator = '0';
     
 
     printf("Enter first number: ");
     scanf("%lf", &num1);
+
+    printf("Enter operator: (+, -, *, /)\n");
+    scanf(" %c", &operator);
+    while(operator != '+' && operator != '-' && operator != '*' &&operator != '/')
+    {
+        printf("ERROR: operation unknown\n");
+        printf("Enter operator: (+, -, *, /)\n");
+        scanf(" %c", &operator);
+    }
     printf("Enter second number: ");
     scanf("%lf", &num2);
 
-    printf("What do you want to do? (add/subtr/mult/div)\n");
-    scanf("%s", operation);
-    if (strcmp(operation, "add") == 0)
+    if (operator == '+')
     {
         result = num1 + num2;
         printf("Result: %.2f", result);
     }
-    else if (strcmp(operation, "subtr") == 0)
+    else if (operator == '-')
     {
         result = num1 - num2;
         printf("Result: %.2f", result);
     }
-    else if (strcmp(operation, "mult") == 0)
+    else if (operator == '*')
     {
         result = num1 * num2;
         printf("Result: %.2f", result);
     }
-    else if (strcmp(operation, "div") == 0)
+    else if (operator == '/')
     {
         result = num1 / num2;
         printf("Result: %.2f", result);
-    }
-    else {
-        printf("error: operation unknown");
     }
     
     getch();    //el getch() es para que al abrir el .exe
