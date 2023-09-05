@@ -25,5 +25,6 @@ int main()
             printf("JAJAJAJA");
         }
 
-    return 0;
+        return 0;
+    }
 }
