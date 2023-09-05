@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main()
+{
     int secretNumber = 5;
     int userGuess;
     int guessCount = 0;
@@ -11,15 +12,19 @@ int main() {
     scanf("%d", &userGuess);
     guessCount++;
 
-    while (userGuess != secretNumber && guessCount != guessLimit) {
+    while (userGuess != secretNumber && guessCount != guessLimit)
+    {
         printf("Incorrect! Try again\n");
         scanf("%d", &userGuess);
         guessCount++;
     }
 
-    if (userGuess == secretNumber) {
+    if (userGuess == secretNumber)
+    {
         printf("Correct! You've won the game");
-    } else {
+    }
+    else
+    {
         printf("You've lost!");
     }
 
