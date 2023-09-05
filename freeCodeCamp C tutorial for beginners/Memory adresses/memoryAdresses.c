@@ -14,7 +14,7 @@ int main()
     printf("%d", personasEnCasaDeLeo); //"andá la casaDeLeo y decime cuántas personas viven ahi"
     //imprime 3, la cantidad de personas que viven ahi
     printf("%p", &personasEnCasaDeLeo); //andá a la casaDeLeo y decime cual es su direccion, NO lo que hay dentro
-    //imprime laCrujia3518, la dirección de la casa donde están "almacenadas" las personas
+    //imprime direccionFalsa1234, la dirección de la casa donde están "almacenadas" las personas
 
 
 
