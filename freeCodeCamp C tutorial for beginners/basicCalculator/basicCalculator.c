@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
@@ -19,26 +18,25 @@ int main()
     if (strcmp(operation, "add") == 0)
     {
         result = num1 + num2;
-        printf("Result: %f", result);
+        printf("Result: %.2f", result);
     }
     else if (strcmp(operation, "subtr") == 0)
     {
         result = num1 - num2;
-        printf("Result: %f", result);
+        printf("Result: %.2f", result);
     }
     else if (strcmp(operation, "mult") == 0)
     {
         result = num1 * num2;
-        printf("Result: %f", result);
+        printf("Result: %.2f", result);
     }
     else if (strcmp(operation, "div") == 0)
     {
         result = num1 / num2;
-        printf("Result: %f", result);
+        printf("Result: %.2f", result);
     }
     else {
         printf("error: operation unknown");
     }
-
     return 0;
 }
