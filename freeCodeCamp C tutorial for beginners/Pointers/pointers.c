@@ -11,11 +11,11 @@ int main()
 {
      //creando la variable 'tipo pointer', que va a almacenar la memory adress de la variable 'age' 
     int age = 30; 
-    int * pAge = &age;  //para nombrarla, se suele poner una 'p' adelante y...
+    int* pAge = &age;  //para nombrarla, se suele poner una 'p' adelante y...
     // luego el nombre de la variable cuya posicion en memoria estoy guardando
 
     printf("The memory adress of 'age' is: %p\n", &age);
-    printf("Again, it's: %p\n", pAge);
+    printf("Again, it's: %p\n\n", pAge);
     
     //en vez de imprimir "30", imprime "0061FF1C" 
 

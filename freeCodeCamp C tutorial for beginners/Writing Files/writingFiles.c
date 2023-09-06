@@ -14,13 +14,15 @@
 // con la funcion fclose(), que cierra el archivo y guarda los cambios
 int main()
 {
-    FILE *fpointer = fopen("C:/Users/leojv/Desktop/employees.txt", "w"); // LOOOL SE CREÓ EL .TXT!!
+    FILE *fpointer = fopen("employees.txt", "w"); // LOOOL SE CREÓ EL .TXT!!
+
     // si se quiere crear el archivo en otra ruta, agregar la misma reemplazando '\' por '/' o '\\'
-  
+    // como por ejemplo: 'fopen("C:/Users/leojv/Desktop/employees.txt", "w")'
+
     // (del mismo modo que printf imprime(escribe) en la consola, fprintf escribe en una archivo)
     fprintf(fpointer, "Jim,salesman, 53\nPam, receptionist, 20");
 
-    //para añadir data sin sobreescribir, usar el mode 'a':
+    // para añadir data sin sobreescribir, usar el mode 'a':
     //'a' agrega una nueva linea de texto al final del archivo
     fopen("employees.txt", "a");
     int marcosAge = 50;
