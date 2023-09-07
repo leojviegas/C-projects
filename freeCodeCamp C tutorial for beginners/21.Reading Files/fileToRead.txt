@@ -1,0 +1,8 @@
+Este .txt fue creado para ser leido por el archivo "readingFiles.c"
+que esta en esta misma carpeta
+
+Agrego texto para que se lean de a una linea a la vez:
+Ariel, listen to me
+OO languages, it's a mess
+Programming in C
+Is better than anything they got up there

@@ -1,2 +1,0 @@
-Este .txt fue creado para ser leido por el archivo "readingFiles.c"
-que esta en esta misma carpeta

@@ -1,6 +1,7 @@
 //directivas de pre procesador y variables
 #include <stdio.h> //libreria
 #include <stdbool.h>
+#include "tiposDeDatos.c"
 #define PI 3.1416 //macro
 
 /*los MACROS son para declarar "cosas"
@@ -16,8 +17,8 @@ int main() {
 	suma = PI + x + y;
 	printf("la suma es: %f \n", suma);
 
-	// saludar();
-	// variables();
+	 saludar();
+	 variables();
 
 	int q = 0;
 	float w = 0;
