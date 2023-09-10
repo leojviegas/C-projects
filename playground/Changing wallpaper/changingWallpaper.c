@@ -1,5 +1,4 @@
 #include <windows.h>
-#include <conio.h>
 
 //código sacado de este video: https://www.youtube.com/watch?v=u2UtNgQERuE
 int main()
