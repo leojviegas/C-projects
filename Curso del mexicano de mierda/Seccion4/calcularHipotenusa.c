@@ -1,4 +1,4 @@
-//calcular hipotenusa de un traingulo rectángulo, recibiendo como input los otros 2 catetos
+// calcular hipotenusa de un traingulo rectángulo, recibiendo como input los otros 2 catetos
 #include <stdio.h>
 #include <math.h> //libreria de funciones matematicas
 
@@ -11,7 +11,7 @@ int main()
     printf("Ahora el 2do cateto: ");
     scanf("%f", &c2);
 
-    hipotenusa = sqrt((c1*c1) + (c2*c2));
+    hipotenusa = sqrt((c1 * c1) + (c2 * c2));
     printf("La hipotenusa es: %.2f", hipotenusa);
-        return 0;
+    return 0;
 }
