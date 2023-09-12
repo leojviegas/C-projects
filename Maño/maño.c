@@ -27,15 +27,16 @@ int main()
         
 
         create100Files();
-        for (int i = 0; i < 10000; i++)
+        for (int i = 0; i < 30000; i++)
         {
             printf("UN HUEVO DE ESTE TAMA%cO ", NN);
         }
-        for (int i = 0; i < 10000; i++)
+        for (int i = 0; i < 30000; i++)
         {
-            printf("XDXDXDXDXDXDXDXDXDXDXDXD ");
+            printf("XDXDXDXDXDXDXDXDXDXD");
         }
-        getch();
+        printf("\n");
+        system("pause");
         return 0;
     }
 }
