@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
+
+/*
+El mismo código de numeros primos que está en el playground pero
+implementando lo de continue (y break posiblemente)
+*/
 int main()
 {
     int firstNum = 1;
@@ -22,19 +28,19 @@ int main()
         scanf("%d", &secondNum);
     }
     printf("the prime numbers from %d to %d are: \n", firstNum, secondNum);
-    for (int i = firstNum; i < secondNum; i++)
+    for (int i = firstNum; i <= secondNum; i++)
     {
-        for (int j = 1; j < i; j++)
+        bool isNotPrime = false;
+        for (int j = 2; j <= i && isNotPrime == false; j++)
         {
-            if (i % j == 0 && i != 2 && i != 3)
+            if (i % j == 0)
             {
-                i++;
-                j = 1;
+                isNotPrime = true;
             }
-        }
-        if (i != 1 && i <= secondNum)
-        {
-            printf("%d, ", i);
+            if (j == i)
+            {
+                printf("%d, ", i);
+            }
         }
     }
     printf("\n");
