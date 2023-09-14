@@ -16,7 +16,7 @@ int main()
     tresColectivosRandom[2] = 343;
     tresColectivosRandom[3] = 87;
 
-    printf("Colectivos random: %d, %d, %d", tresColectivosRandom[1], tresColectivosRandom[2], tresColectivosRandom[3]);
+    printf("\nColectivos random: %d, %d, %d", tresColectivosRandom[1], tresColectivosRandom[2], tresColectivosRandom[3]);
 
 
 
