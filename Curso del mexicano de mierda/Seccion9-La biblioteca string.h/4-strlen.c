@@ -19,7 +19,7 @@ int main()
 
     /*acá le doy al for loopcomo limite el lengh
     del mismo array, para que no pierda tiempo
-    imprimiendo los 4 indexes vacio: 20(size of array) - 16 (length of string inside)
+    imprimiendo los 4 indexes vacios: 20(size of array) - 16 (length of string inside)
     */
     for (int i = 0; i < strlen(arrString); i++)
     {

@@ -1,34 +1,20 @@
 #include <stdio.h>
 #include <math.h>
 // una funcion recursiva es una funcion que se llama a si misma
-int a(int x);
-long factorial(int num);
+long getFactorial(int num);
+
 int main()
 {
-    int x = 4;
-    int num = 31;
+    int input = 0;
+    printf("Escriba un numero positivo para obtener su factorial\n");
+    scanf("%d", &input);
 
-    int resultado = a(x);
-    printf("el resultado es %d", resultado);
-
-    long numFactorial = factorial(num); // calculo de numero factorial con funcion recursiva
-    printf("\n el resultado del factorial de %d es %d", num, numFactorial);
+    long numFactorial = getFactorial(input); // cálculo de numero factorial con funcion recursiva
+    printf("El resultado de %d! es: %d", input, numFactorial);
     return 0;
 }
 
-int a(int x)
-{
-    if (x = 5)
-    {
-        return x;
-    }
-    else
-    {
-        a(x++); // se vuelve a llamar dentro de la misma funcion (se incrementa cada vez)
-    }
-}
-
-long factorial(int n)
+long getFactorial(int n)
 {
     if (n <= 1)
     {
@@ -36,6 +22,6 @@ long factorial(int n)
     }
     else
     {
-        return (n * factorial(n - 1));
+        return (n * getFactorial(n - 1)); // se vuelve a llamar dentro de la misma funcion)
     }
 }

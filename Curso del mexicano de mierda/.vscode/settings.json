@@ -1,8 +1,3 @@
 {
-    "files.associations": {
-        "math.h": "c",
-        "corecrt_math_defines.h": "c",
-        "stdio.h": "c"
-    },
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": true
 }
