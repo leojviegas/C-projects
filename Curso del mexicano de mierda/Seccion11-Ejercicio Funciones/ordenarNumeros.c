@@ -9,7 +9,7 @@ int main()
     n2 = 10;
     n3 = 5;
     printf("\nEscriba 3 numeros que quiera ordenar de menor a mayor (oprima 'enter' o 'espacio' luego de cada numero)\n");
-    //scanf("%d %d %d", &n1, &n2, &n3);
+    scanf("%d %d %d", &n1, &n2, &n3);
     sortNumbers(n1, n2, n3);
 
     return 0;
