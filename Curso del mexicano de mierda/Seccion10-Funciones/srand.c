@@ -6,7 +6,7 @@
 int main()
 {
     int num = 0;
-    //srand(time(NULL));
+    srand(time(NULL));
     
 
     num = 1 + rand()%((10-1)-1); //este mexicano de mierda no explica una mierda qué hace cada cosa
