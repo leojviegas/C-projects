@@ -22,7 +22,7 @@ void decimalToBinary(int num)
     }
     printf("%i", num % 2);
 }
-/* cada vez que termina una "iteración", este printf SE VUELVE A LLAMAR, porque cada llamdo
+/* cada vez que termina una "iteración", este printf SE VUELVE A LLAMAR, porque cada llamado
  pertenece a cada una de las veces en que se entró en la función, por eso funciona
 
  */

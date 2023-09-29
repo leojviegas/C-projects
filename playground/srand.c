@@ -3,18 +3,39 @@
 #include <math.h>
 #include <time.h>
 #include <windows.h>
-//numero random del 1 a 10
+// numero random del 1 a 10
 int main()
 {
-    srand(time(NULL)); //esto se pone para "semillear" a la función rand() con el tiempo actual, para que sea verdaderamente aleatorio
-    int li = 1;  // limite inferior
-    int ls = 10; // limite superior
-    for (int i = 0; i < 10; i++)
+                        /*   esto se pone para "semillear" a la función rand() con el tiempo actual, para que tome eso como base(semilla)
+                             y sea verdaderamente aleatorio
+                         */
+    srand(time(NULL));  
+    int limiteInf = 1;  // limite inferior
+    int limiteSup = 10; // limite superior
+    int opcion = 0;
+    printf("Bienvenido al random number generator.\n");
+    printf("Presione '1' para generar 10 numeros aleatorios.\nPresione '2' para salir.\n");
+    scanf("%d", &opcion);
+
+    while (opcion != 1 && opcion != 2)
     {
-        int n = li + rand() % ((ls + 1) - li);
-        printf("%d, ", n);
-       // Sleep(500);
+        printf("Opcion no valida\n");
+        printf("Presione '1' para generar 10 numeros aleatorios.\nPresione '2' para salir.\n");
+        scanf("%d", &opcion);
     }
-    printf("\n");
+
+    while (opcion == 1)
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            int n = limiteInf + rand() % ((limiteSup + 1) - limiteInf); // poner atención en dónde se ponen el límite inferior y el superior
+            printf("%d, ", n);
+            Sleep(100); // milisegundos (ms)
+        }
+        printf("\n");
+        printf("Presione '1' para generar 10 numeros aleatorios.\nPresione '2' para salir.\n");
+        scanf("%d", &opcion);
+    }
+    despedirse();
     return 0;
 }

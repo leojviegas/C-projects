@@ -5,10 +5,13 @@ int main()
     int a = 0;
     int b = 1;
     int c;
-    for (int i = 0; i < 20; i++)
+    int limite = 0;
+    printf("Ingrese un numero: ");
+    scanf("%d", &limite);
+    for (int i = 0; i < limite; i++)
     {
         c = a + b;
-        printf("\n %ld, ", c);
+        printf("fibonacci(%d) = %ld\n", i+1, c);
         a = b; 
         b = c;
     }
