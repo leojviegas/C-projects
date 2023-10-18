@@ -110,14 +110,16 @@ void multiplyAllElements(int arrNum[])
 void sumElementsDivisibleBy3(int arrNum[])
 {
     int c = 0;
+    printf("Los elementos divisibles entre 3 son: ");
     for (int i = 0; i < arrNumLength; i++)
     {
         if (arrNum[i] % 3 == 0)
         {
+            printf("%d, ", arrNum[i]);
             c += arrNum[i];
         }
     }
-    printf("La suma de todos los elementos del array divisibles por 3 es: %d", c);
+    printf("\nLa suma de todos los elementos del array divisibles por 3 es: %d", c);
 }
 
 void multiplyBy3(int arrNum[])
