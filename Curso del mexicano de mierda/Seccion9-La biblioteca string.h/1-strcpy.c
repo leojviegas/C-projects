@@ -5,7 +5,6 @@
 // la capacidad de la variable char[x] de destino debe ser igual o mayor que la de fuente (el numero de elementos)
 int main()
 {
-   ps://www.reddit.com/r/C_Programming/comments/16htnjf/strange_behaviour_with_strcpy_not_working_if/
     char sourceVar[] = "exampleString1";
     char destinationVar1[15];
     char destinationVar2[15];
@@ -20,4 +19,4 @@ int main()
 
     return 0;
 } //antes no andaba Y AHORA SI: leer este post que hice para entender porque paja de comentar todo devuelta:
-    // htt
+    // https://www.reddit.com/r/C_Programming/comments/16htnjf/strange_behaviour_with_strcpy_not_working_if/
