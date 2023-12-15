@@ -20,7 +20,13 @@ int main()
     return 0;
 }
 
-void sumar(arr1[2][2], arr2[2][2])
+void sumar(int arr1[2][2], int arr2[2][2])
 {
-    
+    int suma[2][2];
+
+    for (int i = 0; i < ; i++)
+    {
+        /* code */
+    }
+       
 }
