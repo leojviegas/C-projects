@@ -12,5 +12,12 @@ int main()
         }
         printf("\n");
     }
+
+    int oddNumbersLength = sizeof(oddNumbers) / sizeof(oddNumbers[0][0]);
+    
+    printf("total size of the 2D array: %d bytes\n", sizeof(oddNumbers));
+    printf("2D array total length: %d\n", oddNumbersLength);
+    printf("size of the 1st element (another array): %d bytes", sizeof(oddNumbers[0]));
+
     return 0;
 }

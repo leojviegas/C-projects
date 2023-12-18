@@ -6,7 +6,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-void sumar(arr1, arr2);
+void sumar(int arr1[2][2], int arr2[2][2]);
 
 int main()
 {
@@ -24,9 +24,21 @@ void sumar(int arr1[2][2], int arr2[2][2])
 {
     int suma[2][2];
 
-    for (int i = 0; i < ; i++)
+    for (int i = 0; i < 2; i++)
     {
-        /* code */
+        for (int j = 0; j < 2; j++)
+        {
+            suma[i][j] = arr1[i][j] + arr2[i][j];
+        }
+    }
+
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            printf("%i ", suma[i][j]);
+        }
+        printf("\n");
     }
        
 }
