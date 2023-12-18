@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int main()
 {
-    char letter = 0;
+   unsigned char letter = 0;
     printf("The corresponding ASCII numbers for every character\n");
     for (int i = 0; i <= 255; i++)
     {

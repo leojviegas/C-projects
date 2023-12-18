@@ -28,7 +28,7 @@ void sumar(int arr1[2][2], int arr2[2][2])
     {
         for (int j = 0; j < 2; j++)
         {
-            suma[i][j] = arr1[i][j] + arr2[i][j];
+            suma[i][j] = arr1[i][j] + arr2[i][j]; //sumando los numeros en la misma posicion de ambos arrays en el array de destino
         }
     }
 
@@ -36,7 +36,7 @@ void sumar(int arr1[2][2], int arr2[2][2])
     {
         for (int j = 0; j < 2; j++)
         {
-            printf("%i ", suma[i][j]);
+            printf("%i ", suma[i][j]); //imprimiendo
         }
         printf("\n");
     }
