@@ -135,8 +135,8 @@ void printArray(int arrNum[], int arrNumLength)
     printf("\nEl array quedo conformado de la siguiente forma:\narrNum[%d] = {", arrNumLength);
     for (int i = 0; i < arrNumLength; i++)
     {
-        printf("%d", arrNum[i]);
-        if (i != arrNumLength - 1)
+        printf("%d", arrNum[i]); //imprime el elemento del array segun el puntero
+        if (i != arrNumLength - 1) //si el elemento NO ES el último, imprime una coma y un espacio antes, así queda ordenado
         {
             printf(", ");
         }

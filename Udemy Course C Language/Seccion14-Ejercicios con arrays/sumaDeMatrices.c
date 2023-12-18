@@ -40,5 +40,4 @@ void sumar(int arr1[2][2], int arr2[2][2])
         }
         printf("\n");
     }
-       
 }
