@@ -2,7 +2,11 @@
     "cmake.configureOnOpen": false,
     "files.associations": {
         "stdlib.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "iterator": "c",
+        "xutility": "c",
+        "tuple": "c",
+        "utility": "c"
     },
     "code-runner.preserveFocus": false
 }
