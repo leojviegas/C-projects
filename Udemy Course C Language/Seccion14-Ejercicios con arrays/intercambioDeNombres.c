@@ -8,8 +8,6 @@
 
 int main()
 {
-
-
     char nombre1[20] = "primeriardo";
     char nombre2[20] = "segundano";
     char placeHolder[20];
