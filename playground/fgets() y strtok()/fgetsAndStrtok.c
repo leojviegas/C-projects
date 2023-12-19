@@ -37,7 +37,7 @@ int main()
     char ejemplo2[10];
     printf("\nVuelva a escribir lo siguiente tal cual se muestra: ejemplo2\n");
     fgets(ejemplo2, 10, stdin);
-    strtok(ejemplo2, "\n");
+    strtok(ejemplo2, "\n"); //se le pasa como parameto el "\n", para que corte y saque el salto de linea
     if (stricmp(ejemplo2, "ejemplo2") == 0)
     {
         printf("\nAhora si los dos strings son iguales -porque se uso strtok()-");

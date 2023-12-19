@@ -12,7 +12,7 @@ int main()
                          */
     srand(time(NULL));  
     int limiteInf = 1;  // limite inferior
-    int limiteSup = 10; // limite superior
+    int limiteSup = 10; // limite superior (igual luego los voy a cambiar pidiéndoselos al usuario)
     int opcion = 0;
     printf("Bienvenido al random number generator.\n");
     printf("Presione '1' para generar 10 numeros aleatorios.\nPresione '2' para salir.\n");

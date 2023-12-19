@@ -8,7 +8,7 @@ todos los strings para indicarle al programa que "terminó el array -o el string
 OJO: no confundir cno sizeof(), que mide la capacidad del array* donde está
 contenido dicho string, mas allá de su largo.
 
-*OJO2: 'la capacidad' del array es en bytes, NO en cantidad de elementos. Pero como un string es un array de char's, y un char
+*la 'capacidad' del array es en bytes, NO en cantidad de elementos. Pero como un string es un array de char's, y un char
 siempre ocupa 1 byte, el tamaño (sizeof) en bytes termina siendo igual que la capacidad de elementos que puede almacenar
 */
 
