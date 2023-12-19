@@ -9,7 +9,7 @@ utilizar la busqueda binaria para determinar si existe o no
 
 int main()
 {
-    int array[10] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+    int array[10] = {100, 90, 80, 70, 60, 50, 40, 30, 20, 10};
     int arrayLength = sizeof(array) / sizeof(array[0]);
     int aux = 0;
     
@@ -46,35 +46,36 @@ int main()
 
     int numberToFind = 0;
     bool numberFound = false;
-    int inf = array[0];
-    int sup = array[arrayLength - 1];
-    int mitad = 0;
+    int i_inf = 0;
+    int i_sup = arrayLength - 1;
+    int i_mitad = 0;
     printf("The array was sorted. Type a number to find in inside the array: \n");
     scanf("%d", &numberToFind);
 
-    while (inf <= sup)
+    while (i_inf <= i_sup)
     {
-        mitad = (inf + sup) / 2;
-        if (array[mitad] == numberToFind)
+        i_mitad = i_inf + (i_sup - i_inf) / 2;
+        if (array[i_mitad] == numberToFind)
         {
             numberFound = true;
             break;
         }
-        else if (array[mitad] > numberToFind)
+        else if (array[i_mitad] > numberToFind)
         {
-            sup = mitad;
+            i_sup = i_mitad - 1;
         }
-        else if (array[mitad] < numberToFind)
+        else if (array[i_mitad] < numberToFind)
         {
-            inf = mitad;
+            i_inf = i_mitad + 1;
         }
     }
-    if (numberFound = true)
+    if (numberFound == true)
     {
-        printf("Number %d found! at position: [%d]", numberToFind, array[mitad-1]);
+        printf("Number %d found! at position: [%d]", numberToFind, i_mitad);
     }
     else
+    {
         printf("Number not found");
-
+    }
     return 0;
 }
