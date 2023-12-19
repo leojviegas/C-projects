@@ -6,21 +6,22 @@
 #include <math.h>
 #include <stdlib.h>
 
-void sumar(int arr1[2][2], int arr2[2][2]);
+void sumarMatrices(int arr1[2][2], int arr2[2][2]);
 
 int main()
 {
     int arr1[2][2] = {{2, 4}, {1, 3}};
     int arr2[2][2] = {{20, 40}, {10, 30}};
 
-    sumar(arr1, arr2);
+    sumarMatrices(arr1, arr2);
+    
 
 
-
+ 
     return 0;
 }
 
-void sumar(int arr1[2][2], int arr2[2][2])
+void sumarMatrices(int arr1[2][2], int arr2[2][2])
 {
     int suma[2][2];
 
