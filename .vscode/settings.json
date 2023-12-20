@@ -6,7 +6,8 @@
         "iterator": "c",
         "xutility": "c",
         "tuple": "c",
-        "utility": "c"
+        "utility": "c",
+        "stdbool.h": "c"
     },
     "code-runner.preserveFocus": false
 }

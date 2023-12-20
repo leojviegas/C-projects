@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 //la Struct (estructura), es una plantilla
-// (en otros lenguajes de programacion, una Class)
+// (en otros lenguajes de programacion, una Class PONELE)
 // se pone antes del int main()
 struct Student
 {
