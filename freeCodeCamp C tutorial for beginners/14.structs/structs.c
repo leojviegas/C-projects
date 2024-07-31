@@ -5,6 +5,9 @@
 //la Struct (estructura), es una plantilla
 // (en otros lenguajes de programacion, una Class PONELE)
 // se pone antes del int main()
+
+
+
 struct Student
 {
     char name[64];
@@ -34,8 +37,6 @@ int main()
 
     printf("%s", student2.major);
     
-
-
 
     return 0;
 }
