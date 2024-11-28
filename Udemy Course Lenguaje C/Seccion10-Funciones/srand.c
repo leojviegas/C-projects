@@ -27,7 +27,7 @@ int main()
 
     while (opcion == 1)
     {
-        printf("ingrese limite inferior (NO menor a 0)\n");
+        printf("ingrese limite inferior (mayor o igual a 0)\n");
         scanf("%d", &limiteInf);
         printf("Ingrese limite superior\n");
         scanf("%d", &limiteSup);

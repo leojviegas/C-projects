@@ -30,7 +30,7 @@ int main()
        porque el puntero cuando "apunta al archivo" apunta a la 1ra linea del mismo
        CORRECION: Creo que en realidad es porque, de la misma forma que al usar fgets() para
        recibir input desde la consola y guarda en un arrString se guarda también el
-       ultimo caracter que es un new line siempre '\n', cuando de "fgetsea" desde un archivo,
+       ultimo caracter que es un new line siempre '\n', cuando de "fgets" desde un archivo,
        se lee también el enter ('\n), al final de cada linea.
       */
     fclose(fpointer);

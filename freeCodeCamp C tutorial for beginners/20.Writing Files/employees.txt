@@ -1,7 +1,0 @@
-Jim,salesman, 53
-Pam, receptionist, 20
-Marcos, CEO, 50
-Marcos, CEO, 50
-Marcos, CEO, 50
-Marcos, CEO, 50
-Marcos, CEO, 50

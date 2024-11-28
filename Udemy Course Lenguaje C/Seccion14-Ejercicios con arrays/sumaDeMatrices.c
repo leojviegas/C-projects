@@ -10,10 +10,12 @@ void sumarMatrices(int arr1[2][2], int arr2[2][2]);
 
 int main()
 {
-    int arr1[2][2] = {{2, 4}, {1, 3}};
-    int arr2[2][2] = {{20, 40}, {10, 30}};
+    int matrix1[2][2] = {{2, 4}, {1, 3}};
+    int array1[4] = {2, 4, 1, 3};
 
-    sumarMatrices(arr1, arr2);
+    int matrix2[2][2] = {{20, 40}, {10, 30}};
+
+    sumarMatrices(matrix1, matrix2);
     
 
 
