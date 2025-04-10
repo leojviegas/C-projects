@@ -8,7 +8,7 @@ void blockPC();
 int tiempoDeTrabajo = 45;         // tiempo del pomodoro en minutos (periodo de trabajo)
 int tiempoDeDescanso = 15;         // tiempo de descanso en minutos
 int cantidadTotalDePomodoros = 2; // ciclos totales que van a ocurrir
-
+//comentario de prueba
 int main()
 {
     std::cout << "Bienvenido al PC time blocker\nelija a continuacion los tiempos en los cuales desea que la PC siga activa\n";
