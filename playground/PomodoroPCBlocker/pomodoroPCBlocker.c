@@ -48,7 +48,7 @@ void blockPC() // manda comando de bloquear PC cada 5s, por "tiempoDeDescanso" m
                                                          // se ejecute por 1 min exactamente
         {
             system("rundll32.exe user32.dll,LockWorkStation"); // bloquear PC en sesión actual
-            Sleep(lockEveryXSeconds * 1000);                   // esperar lockEveryXSeconds segundos
+            Sleep(lockEveryXSeconds * 1000); // esperar lockEveryXSeconds segundos
         }
     }
 }

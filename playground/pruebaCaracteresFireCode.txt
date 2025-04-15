@@ -1,0 +1,41 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+
+int main()
+{
+    
+ffffffffffffffffffffdsdfsdfsdfsd
+d
+SH_DENYNOsd
+fsd
+
+SW_UNDERFLOWsd
+SW_UNDERFLOW
+int var02 = 20;
+int var03 = 15146849;
+@chupapija function puto() {el gatin = 0;}
+
+}
+&& puto
+    return 0;
+    =
+    !=
+    =\|
+    >=
+    <=
+    ==
+    =!=
+    ->
+    -->
+    <-
+    <--
+    <==
+    ==>
+    <=>
+    <==>
+    <=>=
+    >==
+    >>=
+    >>=>
